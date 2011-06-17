@@ -1,9 +1,16 @@
+☆概要
 Rubyでfoursquare(http://foursquare.com/) のAPIにアクセスするための
 ラッパーを書きました。ただ、全部のエンドポイントに対応してるわけではありません。
 foursqaureのAPIについて、詳しくはこちらを御覧ください。
+https://developer.foursquare.com/docs/
 
-  https://developer.foursquare.com/docs/
+☆動作環境
+Ruby1.9.2で開発しています。require_relativeなどを利用しているため
+1.8系では動かないと思われます。
 
---
+またこのモジュールを利用するためには以下のgemが最低限必要です。
+・httparty (https://github.com/jnunemaker/httparty)
+
+☆使い方
 sample.rbにsinatraを使って、fousquareにログインして
 ユーザー情報を取得するまでのコードを書きました。
