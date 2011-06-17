@@ -1,2 +1,9 @@
+Rubyでfoursquare(http://foursquare.com/) のAPIにアクセスするための
+ラッパーを書きました。ただ、全部のエンドポイントに対応してるわけではありません。
+foursqaureのAPIについて、詳しくはこちらを御覧ください。
+
+  https://developer.foursquare.com/docs/
+
+--
 sample.rbにsinatraを使って、fousquareにログインして
 ユーザー情報を取得するまでのコードを書きました。
